@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "id": "1",
+      "name": "test",
+      "type": "forward"
+    },
+    {
+      "id": "2",
+      "name": "test 2",
+      "type": "forward"
+    }
+  ]
+}

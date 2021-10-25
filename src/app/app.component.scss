@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background: #515A5F;
+}
+
+.interpreter-container {
+  border-right: 2px solid #24BA8B;
+}
+
+.scene-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

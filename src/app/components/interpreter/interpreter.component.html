@@ -1,0 +1,15 @@
+<div class="interpreter">
+  <div class="interpreter-wrapper">
+    <button class="interpreter-button" (click)="onClick()">START</button>
+    <button class="interpreter-button-clear" (click)="onClear()">CLEAR</button>
+  </div>
+  <ngx-codemirror
+    class="codemirror"
+    [(ngModel)]="content"
+    [options]="{
+        lineNumbers: true,
+        theme: 'material',
+        mode: 'interpreter-mode'
+      }"
+  ></ngx-codemirror>
+</div>

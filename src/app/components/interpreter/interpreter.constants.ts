@@ -1,0 +1,15 @@
+export enum COMMAND {
+  FORWARD = 'forward',
+  BACKWARD = 'backward',
+  TURNLEFT = 'turnleft',
+  TURNRIGHT = 'turnright',
+  DIRECTION = 'direction',
+  CENTER = 'center',
+  GOX = 'gox',
+  GOY = 'goy',
+  GO = 'go',
+  PENUP = 'penup',
+  PENDOWN = 'pendown',
+  PENWIDTH = 'penwidth',
+  PENCOLOR = 'pencolor',
+}

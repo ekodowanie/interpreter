@@ -1,0 +1,64 @@
+.interpreter {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .interpreter-wrapper {
+    display: flex;
+    height: 68px;
+    align-items: center;
+
+    & > button {
+      border: none;
+      color: #fff;
+      height: 36px;
+      width: 116px;
+      padding: 0 26px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: Roboto, sans-serif;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  }
+
+  .interpreter-button {
+    background: #24BA8B;
+    margin-right: 10px;
+
+    &:hover {
+      background: #2ad19d;
+    }
+  }
+
+  .interpreter-button-clear {
+    background: #a5adaa;
+
+    &:hover {
+      background: #bec9c5;
+    }
+  }
+
+  ::ng-deep .CodeMirror{
+    height: 100%;
+    padding: 10px 0;
+  }
+
+  ::ng-deep .cm-command{
+    color: #cbf163;
+  }
+
+  ::ng-deep .cm-number{
+    color: #fcd782;
+  }
+
+  ::ng-deep .cm-invalid{
+    color: red;
+  }
+
+  .codemirror {
+    height: 100%;
+    width: 300px;
+  }
+}
